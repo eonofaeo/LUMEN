@@ -1,0 +1,11 @@
+Lumen final verification — re-run after resume (31 October 2026)
+
+- Data/focus checks (node --test checks/data.test.mjs checks/focus.test.mjs): 17 pass, 0 fail -> reports/data-checks.txt
+- Browser regression (node checks/extension-smoke.mjs): 16 pass, 0 fail, 0 errors -> reports/browser-checks.json
+- Focus/appearance (node checks/focus-browser.mjs): 13 pass, 0 fail, 0 errors -> reports/focus-browser-checks.json
+- Syntax + manifest targets/icons (node checks/syntax-check.mjs): ALL-SYNTAX-AND-TARGETS-OK -> reports/syntax-checks.txt
+- ZIP vs live folder (node checks/verify-zip.mjs): ZIP-MATCHES-DISK, 21 files compared, XC.md matches -> reports/zip-check.txt
+
+- lumen-free.zip SHA-256: 70684A97E48B5C64182A60A6AC3E96CE66F54F4356B25B4BD5156F19C5F625C3
+- lumen-free-v1.0.zip SHA-256: 4ADEA04C745DDB721CBCDD98050061CD3FCA10F817809963793782D6F390AA16
+- Manifest version: 1.1.0

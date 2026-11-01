@@ -1,0 +1,14 @@
+# Chromium browser binaries (test tooling)
+checks/browsers/
+
+# Browser profile directories (test artifacts)
+checks/profile-*/
+checks/debug-*/
+
+# Node modules
+node_modules/
+checks/node_modules/
+
+# OS files
+Thumbs.db
+.DS_Store

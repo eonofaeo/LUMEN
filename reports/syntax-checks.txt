@@ -1,0 +1,15 @@
+OK app.js
+OK background.js
+OK focus-state.js
+OK focus.js
+OK import-export.js
+OK popup.js
+OK store.js
+ICON-OK assets/icon16.png
+ICON-OK assets/icon32.png
+ICON-OK assets/icon48.png
+ICON-OK assets/icon128.png
+TARGET-OK newtab.html
+TARGET-OK popup.html
+TARGET-OK background.js
+ALL-SYNTAX-AND-TARGETS-OK

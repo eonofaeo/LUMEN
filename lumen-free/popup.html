@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Save to Lumen</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main class="popup-shell">
+    <header class="brand-row">
+      <img class="brand-mark" src="assets/lumen-mark.svg" alt="">
+      <div class="brand-copy">
+        <span class="eyebrow">A LITTLE ROOM FOR LATER</span>
+        <h1>Lumen</h1>
+      </div>
+      <span class="local-badge"><span></span> Private</span>
+    </header>
+
+    <section class="current-card" aria-labelledby="current-heading">
+      <span class="section-label" id="current-heading">CURRENT TAB</span>
+      <div class="tab-details"><img id="tab-favicon" alt="" hidden><div class="tab-copy"><p id="tab-title" class="tab-title">Loading current page…</p>
+      <p id="tab-url" class="tab-url"></p>
+      </div></div>
+    </section>
+
+    <form id="save-form">
+      <label for="page-select">Save to</label>
+      <select id="page-select" required></select>
+
+      <div class="board-label-row">
+        <label for="board-select">Board</label>
+        <button class="text-button" type="button" id="new-board-toggle">+ New board</button>
+      </div>
+      <select id="board-select" required></select>
+      <input id="new-board-name" type="text" placeholder="Name your new board" hidden>
+
+      <label for="description">Note <span class="optional">optional</span></label>
+      <textarea id="description" rows="2" placeholder="Add a thought for later"></textarea>
+
+      <label for="tags">Tags <span class="optional">optional</span></label>
+      <input id="tags" type="text" placeholder="design, read later, ideas">
+
+      <div id="message" class="message" role="status" aria-live="polite"></div>
+      <button id="save-button" class="primary-button" type="submit">Save bookmark</button>
+    </form>
+
+    <div class="secondary-actions">
+      <button id="save-tabs-button" class="quiet-button" type="button">Save all open tabs</button>
+      <button id="open-dashboard-button" class="quiet-button" type="button">Open workspace <span aria-hidden="true">↗</span></button>
+    </div>
+    <footer><span id="libraryCount">Stored on this device</span><span>Free · no account</span></footer>
+  </main>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

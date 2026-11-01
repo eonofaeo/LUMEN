@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en" data-theme="dark" data-wallpaper="aurora">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <title>Lumen · Your corner of the internet</title>
+  <link rel="icon" href="assets/icon32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="dashboard.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body data-theme="dark" data-wallpaper="aurora" data-density="comfortable">
+  <header class="topbar">
+    <a class="brand" href="newtab.html" aria-label="Lumen home"><img class="brand-mark" src="assets/lumen-mark.svg" alt=""><span class="brand-name">lumen<span class="brand-dot">.</span></span></a>
+    <div class="search-wrap"><span id="searchIcon" aria-hidden="true"></span><input id="search" type="search" placeholder="Search your bookmarks, notes, and tags…" autocomplete="off" aria-label="Search bookmarks"><kbd>/</kbd></div>
+    <div class="header-actions"><button class="icon-button" data-action="undo" title="Undo (Ctrl+Z)" aria-label="Undo"></button><button class="icon-button" data-action="redo" title="Redo (Ctrl+Shift+Z)" aria-label="Redo"></button><button class="button secondary" data-action="import">Import</button><button class="button primary" data-action="add-link">+ Bookmark</button></div>
+  </header>
+  <nav class="page-navigation" aria-label="Workspace pages"><div id="pageTabs"></div><button class="add-page" data-action="add-page" title="Create a page" aria-label="Create a page">+</button></nav>
+  <main class="workspace">
+    <section class="dashboard-intro" aria-label="Your day">
+      <div><p class="eyebrow" id="dayLabel">YOUR SPACE TO THINK</p><h2 id="greeting">Make room for what matters.</h2><p class="intro-caption">A clear space for your links. A little focus for your day.</p></div>
+      <div class="day-widget"><time id="dashboardClock" aria-label="Current time">--:--</time><span id="dashboardDate"></span><button class="zen-toggle" data-focus-action="zen" aria-pressed="false"><span aria-hidden="true">↗</span> Enter focus mode</button></div>
+    </section>
+    <section id="focusPanel" class="focus-panel" aria-label="Daily focus and timer">
+      <div class="intention-section"><div class="focus-kicker"><span class="sparkle" aria-hidden="true">✦</span> ONE THING AT A TIME <span id="focusSessionCount" class="session-count">0 sessions today</span></div><form id="intentionForm"><label for="dailyIntention">What would make today a good day?</label><div class="intention-entry"><input id="dailyIntention" name="intention" placeholder="Give your attention a direction…" autocomplete="off"><button type="submit" class="intention-save" aria-label="Save daily focus" title="Save daily focus">↵</button></div></form><span id="intentionStatus" class="intention-status" aria-live="polite">Only for today. Saved on this device.</span></div>
+      <div class="timer-widget"><div class="timer-dial"><svg viewBox="0 0 100 100" aria-hidden="true"><circle class="timer-track" cx="50" cy="50" r="45"/><circle class="timer-progress" cx="50" cy="50" r="45"/></svg><div><span id="timerTime" role="timer" aria-live="off">25:00</span><span id="timerState">Ready to focus</span></div></div><div class="timer-controls"><label class="sr-only" for="timerPreset">Focus or break duration</label><select id="timerPreset"><optgroup label="Deep focus"><option value="focus:25">Focus · 25 min</option><option value="focus:50">Focus · 50 min</option><option value="focus:90">Focus · 90 min</option></optgroup><optgroup label="Take a breath"><option value="break:5">Break · 5 min</option><option value="break:15">Break · 15 min</option></optgroup><option value="custom">Custom duration…</option></select><div id="customTimer" class="custom-timer" hidden><input id="customMinutes" type="number" min="1" step="1" value="25" aria-label="Custom duration in minutes"><button type="button" data-focus-action="custom">Set minutes</button></div><div class="timer-buttons"><button id="timerToggle" class="button primary" data-focus-action="toggle">Start focus</button><button class="timer-reset icon-button" data-focus-action="reset" aria-label="Reset timer" title="Reset timer">↺</button></div></div></div>
+    </section>
+    <section class="workspace-header"><div class="workspace-heading"><p class="eyebrow">YOUR COLLECTION</p><h1 id="pageTitle">Your workspace</h1><p class="workspace-meta" id="workspaceMeta">Loading your bookmarks…</p></div><div class="workspace-actions"><div class="layout-switch" role="group" aria-label="Collection layout"><button type="button" data-layout="boards" class="active" aria-label="Board layout" title="Boards" aria-pressed="true">▦</button><button type="button" data-layout="list" aria-label="List layout" title="List" aria-pressed="false">☰</button></div><div id="searchOptions" hidden><select id="searchScope" aria-label="Search scope"><option value="all">All pages</option><option value="page">This page</option></select><label class="exact-search"><input id="exactSearch" type="checkbox"> Exact match</label></div><button class="icon-button" data-action="page-menu" title="Page options" aria-label="Page options"></button><button class="button secondary" data-action="select">Select</button><button class="button secondary" data-action="add-board">+ New board</button></div></section>
+    <div id="selectionBar" class="selection-bar" hidden></div>
+    <section id="boards" class="board-grid" aria-label="Bookmark boards"></section>
+    <div id="emptyState" class="empty-state" hidden></div>
+  </main>
+  <aside class="tool-rail" aria-label="Workspace tools"><button class="tool-btn" data-action="import" title="Import bookmarks" aria-label="Import bookmarks"></button><button class="tool-btn" data-action="incognito" title="Incognito opening" aria-label="Toggle incognito opening" aria-pressed="false"></button><button class="tool-btn" data-action="duplicates" title="Review duplicate bookmarks" aria-label="Review duplicate bookmarks"></button><button class="tool-btn" data-action="trash" title="Trash" aria-label="Open trash"></button><button class="tool-btn" data-action="privacy" title="Blur your workspace (Alt+P)" aria-label="Toggle privacy blur" aria-pressed="false"></button><button class="tool-btn" data-action="settings" title="Personalize your workspace" aria-label="Open settings"></button></aside>
+  <footer class="status-bar"><span class="storage-status"><span class="status-dot"></span> Saved on this device</span><span>Your links. Your space. Always free.</span><button class="text-button" data-action="help">Shortcuts & help</button></footer>
+  <dialog id="modal" class="dialog" aria-labelledby="dialogTitle"><div class="dialog-header"><h2 id="dialogTitle"></h2><button class="icon-button" data-action="close-modal" aria-label="Close dialog">×</button></div><div id="dialogBody"></div></dialog>
+  <div id="menu" class="context-menu" role="menu" hidden></div>
+  <div id="toasts" class="toast-region" aria-live="polite"></div>
+</body>
+</html>

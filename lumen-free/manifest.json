@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "Lumen — Free Bookmark Workspace",
+  "version": "1.1.0",
+  "description": "A private, local-first workspace for unlimited bookmarks.",
+  "permissions": ["storage", "unlimitedStorage", "activeTab", "contextMenus", "favicon"],
+  "optional_permissions": ["bookmarks", "tabs"],
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'; base-uri 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:"
+  },
+  "action": {
+    "default_title": "Save to Lumen",
+    "default_popup": "popup.html"
+  },
+  "commands": {
+    "quick-save": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y",
+        "mac": "Command+Shift+Y"
+      },
+      "description": "Save the current page to Lumen"
+    }
+  },
+  "icons": {
+    "16": "assets/icon16.png",
+    "32": "assets/icon32.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-31T23:17:34.580Z",
+  "passed": [
+    "MV3 worker, default dashboard and eight Home boards",
+    "Create page, board, bookmark with notes and tags",
+    "Undo and redo survive view navigation and privacy toggles",
+    "Global tag search, exact match, scope, and no-result state",
+    "Unsafe URL rejected without committing",
+    "Edit board preserves order and collapse persists reload",
+    "Trash restore retains original position after reload",
+    "Import text and skip duplicates",
+    "Workspace backup downloads and parses",
+    "Light theme, compact mode, custom wallpaper, privacy and mobile layout",
+    "Concurrent writes from separate contexts are retained",
+    "Drag bookmarks and boards across boards and page tabs",
+    "Board duplicate review, deduplication, and bulk move",
+    "Background messages save records and handle incognito opening",
+    "Popup loads in extension origin",
+    "No uncaught page errors"
+  ],
+  "failures": [],
+  "errors": []
+}

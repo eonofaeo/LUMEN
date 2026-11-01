@@ -1,0 +1,551 @@
+{
+  "app": "Lumen Free",
+  "version": 1,
+  "exportedAt": "2026-10-31T23:17:29.390Z",
+  "state": {
+    "version": 1,
+    "pages": [
+      {
+        "id": "ba41db71-be6d-4f9f-a6be-110292bdcb8d",
+        "name": "Home",
+        "boards": [
+          {
+            "id": "6058b4be-c4f0-4c2b-983b-b1ee4d0914cc",
+            "name": "Daily edited",
+            "color": "#34d399",
+            "collapsed": false,
+            "links": [
+              {
+                "id": "40575514-7813-4e4a-b1fb-2b0e21f3664c",
+                "title": "Gmail",
+                "url": "https://mail.google.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:22.998Z"
+              },
+              {
+                "id": "a32a195e-4eb6-4824-91e9-1e2a0dda78f5",
+                "title": "Google Calendar",
+                "url": "https://calendar.google.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              },
+              {
+                "id": "994a8ee6-046b-42ad-8264-5150aa87b9a0",
+                "title": "Google Drive",
+                "url": "https://drive.google.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              },
+              {
+                "id": "7f00ef83-a7c3-4a13-9921-3e6ae5155678",
+                "title": "Weather",
+                "url": "https://weather.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              }
+            ]
+          },
+          {
+            "id": "57db32c2-3ffc-43de-9524-4a3002ff6505",
+            "name": "News",
+            "color": "#60a5fa",
+            "links": [
+              {
+                "id": "e7ff673c-3e55-4f09-8d90-c89ece2095bc",
+                "title": "BBC News",
+                "url": "https://www.bbc.com/news",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              },
+              {
+                "id": "094543ac-3a6d-4279-9459-69a120bf3796",
+                "title": "Reuters",
+                "url": "https://www.reuters.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              },
+              {
+                "id": "d646d002-6186-4704-a00a-325bc717a7f0",
+                "title": "AP News",
+                "url": "https://apnews.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              },
+              {
+                "id": "bb886b97-6099-4530-900f-4159c5ffdc7e",
+                "title": "The Guardian",
+                "url": "https://www.theguardian.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              }
+            ]
+          },
+          {
+            "id": "e03086da-35fe-41a9-aec0-bd333bc8bfbd",
+            "name": "Food",
+            "color": "#fb923c",
+            "links": [
+              {
+                "id": "3ea37b17-1ffb-4fa4-b2db-dcf990d996bb",
+                "title": "NYT Cooking",
+                "url": "https://cooking.nytimes.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              },
+              {
+                "id": "7d331672-03af-4e7c-8d78-d43f47389821",
+                "title": "Serious Eats",
+                "url": "https://www.seriouseats.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              },
+              {
+                "id": "2d294ca2-1b9a-4052-a666-2ae4465e63b9",
+                "title": "BBC Good Food",
+                "url": "https://www.bbcgoodfood.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              },
+              {
+                "id": "655a04df-0a3a-4f5c-997b-4dbd39216bac",
+                "title": "Budget Bytes",
+                "url": "https://www.budgetbytes.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              }
+            ]
+          },
+          {
+            "id": "3887f49d-82a1-4e37-a5cd-8c47fb992c89",
+            "name": "Shopping",
+            "color": "#f472b6",
+            "links": [
+              {
+                "id": "ba16644c-fe11-4c81-854e-231859eb8eb0",
+                "title": "Etsy",
+                "url": "https://www.etsy.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              },
+              {
+                "id": "d7d4e374-8eaa-4e8f-9007-a94032934c81",
+                "title": "eBay",
+                "url": "https://www.ebay.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              },
+              {
+                "id": "ecff4f35-34b4-4b3c-9753-3b0d06fabb30",
+                "title": "Wirecutter",
+                "url": "https://www.nytimes.com/wirecutter/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              }
+            ]
+          },
+          {
+            "id": "17f03430-267d-488e-a3f2-a86a98fda96f",
+            "name": "AI & ideas",
+            "color": "#a78bfa",
+            "links": [
+              {
+                "id": "672a4fe9-0e71-476d-bdf3-b1660d8a1a40",
+                "title": "ChatGPT",
+                "url": "https://chatgpt.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              },
+              {
+                "id": "4ed7fb28-c6b6-4e4e-b20d-3cbe80039fc3",
+                "title": "Claude",
+                "url": "https://claude.ai/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              },
+              {
+                "id": "3d0eb217-03e1-4902-8daf-523b3ed68642",
+                "title": "Perplexity",
+                "url": "https://www.perplexity.ai/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              },
+              {
+                "id": "e2caff39-ceee-4fea-a89f-d73761bcc347",
+                "title": "Gemini",
+                "url": "https://gemini.google.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              }
+            ]
+          },
+          {
+            "id": "aff6eab9-1744-43de-9e01-c39c715eb1ac",
+            "name": "Create something",
+            "color": "#fbbf24",
+            "links": [
+              {
+                "id": "193283f9-3606-4e1b-83cf-41ddb4be7c6f",
+                "title": "Figma",
+                "url": "https://www.figma.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              },
+              {
+                "id": "8e77f940-5690-4765-b41e-b76089a9d0cd",
+                "title": "Canva",
+                "url": "https://www.canva.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              },
+              {
+                "id": "f9193339-b577-4427-acf3-68ee379e8900",
+                "title": "Unsplash",
+                "url": "https://unsplash.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              },
+              {
+                "id": "d95712bb-c821-4431-ad9e-3ef1f5ef5fa4",
+                "title": "Dribbble",
+                "url": "https://dribbble.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              }
+            ]
+          },
+          {
+            "id": "c9eb1a31-d722-4713-997c-16391eb54260",
+            "name": "Stay connected",
+            "color": "#2dd4bf",
+            "links": [
+              {
+                "id": "d3e54f1d-e859-4e28-97eb-dc087f9ff8da",
+                "title": "WhatsApp",
+                "url": "https://web.whatsapp.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              },
+              {
+                "id": "a4b24e51-27e8-4a64-b768-5f39abf16bba",
+                "title": "Discord",
+                "url": "https://discord.com/app",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              },
+              {
+                "id": "c141c8ed-6a8e-42e9-a910-02e6637bd507",
+                "title": "Telegram",
+                "url": "https://web.telegram.org/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              },
+              {
+                "id": "8ba8b31e-1fcb-4936-8e76-e7490fe44a3d",
+                "title": "Reddit",
+                "url": "https://www.reddit.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              }
+            ]
+          },
+          {
+            "id": "f30afb45-3b43-407c-b5da-77c21007ad55",
+            "name": "A little downtime",
+            "color": "#fb7185",
+            "links": [
+              {
+                "id": "f420cba6-641f-4f77-8283-154f229d8558",
+                "title": "YouTube",
+                "url": "https://www.youtube.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              },
+              {
+                "id": "7731f867-d595-4667-8d25-761249fc8a22",
+                "title": "Spotify",
+                "url": "https://open.spotify.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              },
+              {
+                "id": "1b3ed7ff-5ac6-4ab1-9b85-7d1439d8e4ca",
+                "title": "Internet Archive",
+                "url": "https://archive.org/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              },
+              {
+                "id": "d70991e9-be7b-4a2d-9c99-848b20d87cbe",
+                "title": "Letterboxd",
+                "url": "https://letterboxd.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              }
+            ]
+          },
+          {
+            "id": "219b98b3-a0dc-452e-8d04-bbb788cb7ae1",
+            "name": "Imported",
+            "color": "#34d399",
+            "links": [
+              {
+                "id": "05f1b228-3593-49ae-802f-6a3bfab23c43",
+                "title": "https://example.com/unique-new",
+                "url": "https://example.com/unique-new",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:28.989Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "424c167e-a055-48ac-9b79-b92ceac63d54",
+        "name": "Work",
+        "boards": [
+          {
+            "id": "0b9824ca-edc8-4ff4-b63c-cb32b198118d",
+            "name": "Productivity",
+            "color": "#818cf8",
+            "links": [
+              {
+                "id": "db05575a-00fd-45e0-9d18-61b5dfaf80b3",
+                "title": "Notion",
+                "url": "https://www.notion.so/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              },
+              {
+                "id": "1339ef27-1f8a-45b0-8761-0a30e4fd7218",
+                "title": "Trello",
+                "url": "https://trello.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              },
+              {
+                "id": "d3caa29d-6fa8-4581-adfc-5348f11cff43",
+                "title": "Figma",
+                "url": "https://www.figma.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              },
+              {
+                "id": "b1f06d74-b466-43bb-a095-8fd2d3c13618",
+                "title": "Slack",
+                "url": "https://slack.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.001Z"
+              }
+            ]
+          },
+          {
+            "id": "312ca6a7-dbf6-4e5e-987f-e7a261fef051",
+            "name": "Development",
+            "color": "#34d399",
+            "links": [
+              {
+                "id": "e43bfd30-120a-4696-9740-49808a215c56",
+                "title": "GitHub",
+                "url": "https://github.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.002Z"
+              },
+              {
+                "id": "fe3c6161-6485-4c75-9f3f-89756728d9e4",
+                "title": "MDN Web Docs",
+                "url": "https://developer.mozilla.org/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.002Z"
+              },
+              {
+                "id": "fd5acc6b-24d9-4446-bdcf-87b4d8553a4d",
+                "title": "Stack Overflow",
+                "url": "https://stackoverflow.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.002Z"
+              },
+              {
+                "id": "ceb9202b-fe7b-46ab-9277-4fba1ad4b177",
+                "title": "Can I use",
+                "url": "https://caniuse.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.002Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dfe57d07-fb49-4168-8229-12c5f492a8fa",
+        "name": "Reading",
+        "boards": [
+          {
+            "id": "0742b9c6-c71b-4955-b4fc-a3ae2bd32c18",
+            "name": "Long Reads",
+            "color": "#fbbf24",
+            "links": [
+              {
+                "id": "a2cf7871-97da-46ab-9f28-7e65ff7acf6d",
+                "title": "The Atlantic",
+                "url": "https://www.theatlantic.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.002Z"
+              },
+              {
+                "id": "32132497-5ad5-42e4-b174-df42160efb7d",
+                "title": "Aeon",
+                "url": "https://aeon.co/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.002Z"
+              },
+              {
+                "id": "66f46463-323e-4222-bfcc-4e3c907df572",
+                "title": "Longreads",
+                "url": "https://longreads.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.002Z"
+              }
+            ]
+          },
+          {
+            "id": "f3968306-8d52-4913-864e-86ad3511b5ed",
+            "name": "Learn",
+            "color": "#38bdf8",
+            "links": [
+              {
+                "id": "844466b1-a367-419e-a8d2-da7d1689e671",
+                "title": "Khan Academy",
+                "url": "https://www.khanacademy.org/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.002Z"
+              },
+              {
+                "id": "113eb810-cb0b-4670-9104-9a286c5e6d6c",
+                "title": "Wikipedia",
+                "url": "https://www.wikipedia.org/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.002Z"
+              },
+              {
+                "id": "7857ef14-2065-4888-9a62-95b1b801cb3d",
+                "title": "Project Gutenberg",
+                "url": "https://www.gutenberg.org/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.002Z"
+              },
+              {
+                "id": "a0641e38-f06e-48f9-b1af-2c1a7bf0fd21",
+                "title": "TED",
+                "url": "https://www.ted.com/",
+                "description": "",
+                "tags": [],
+                "createdAt": "2026-10-31T23:17:23.002Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bbfea111-81e3-473e-a056-2e9bfbd98a09",
+        "name": "Smoke Test",
+        "boards": [
+          {
+            "id": "82164dae-249d-4cd9-aff9-b2395bb7bafc",
+            "name": "Research",
+            "color": "#34d399",
+            "links": [
+              {
+                "id": "32238769-b403-4299-9c9f-a1213a91a674",
+                "title": "My research",
+                "url": "https://example.com/research",
+                "description": "A useful multi-line\nnote",
+                "tags": [
+                  "design",
+                  "reference"
+                ],
+                "createdAt": 1793488645675
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "activePageId": "ba41db71-be6d-4f9f-a6be-110292bdcb8d",
+    "settings": {
+      "theme": "dark",
+      "accent": "#34d399",
+      "wallpaper": "aurora",
+      "customWallpaper": "",
+      "columns": 4,
+      "density": "comfortable",
+      "showDescriptions": true,
+      "openInNewTab": true,
+      "privacy": false,
+      "incognito": false,
+      "layout": "boards",
+      "surfaceOpacity": 88,
+      "showFocusPanel": true,
+      "showDomains": true
+    },
+    "focus": {
+      "mode": "focus",
+      "durationMinutes": 25,
+      "remainingSeconds": 1500,
+      "running": false,
+      "endAt": null,
+      "intention": "",
+      "intentionDate": "2026-11-01",
+      "completedSessions": 0,
+      "sessionDate": "2026-11-01",
+      "lastCompletedAt": 0
+    },
+    "trash": [],
+    "updatedAt": 1793488648994
+  }
+}

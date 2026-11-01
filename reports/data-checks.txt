@@ -1,0 +1,25 @@
+✔ URL validation rejects execution schemes while accepting supported URLs (1.794ms)
+✔ Full backup retains settings, wallpaper, trash order, notes, and collapsed boards (14.1562ms)
+✔ No page, board, bookmark, note or tag truncation (177.7471ms)
+✔ HTML roundtrip preserves page and board membership and safe escaping (5.3523ms)
+✔ CSV preserves multiline notes, commas, quotes, tags, and folder names (1.9736ms)
+✔ Import dedupes across nested and loose URLs without changing preferences (1.2634ms)
+✔ Invalid backup and malformed CSV fail without partial mutation (0.3552ms)
+✔ Failed mutations do not replay or change persisted data (5.834ms)
+✔ LumiList 2.1.3 portability JSON retains folders, ordering, notes, and trashed links (2.8312ms)
+✔ A pasted URL containing commas is not misread as CSV (0.6354ms)
+✔ Timer deadline survives serialization, pause, resume, and reset (3.3163ms)
+✔ Completed focus sessions count once; breaks do not count (0.5439ms)
+✔ Daily counts reset on completion in a new local day (0.285ms)
+✔ Malformed timer state is safe and durations validate (0.584ms)
+✔ Old workspaces gain focus defaults and new preferences without losing links (14.3295ms)
+✔ JSON backup preserves focus and appearance; append import preserves current focus (8.66ms)
+✔ reports\data-checks.txt (141.8791ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 414.8988

@@ -1,0 +1,19 @@
+{
+  "passed": [
+    "Focus dashboard, clock, date, and desktop bounds",
+    "Daily intention persists across reload without markup execution",
+    "Start, pause, resume, and reset timer across reloads",
+    "Custom duration and break presets persist",
+    "Expired timer counts once across simultaneous dashboard tabs",
+    "Focus mode hides collection, preserves timer, and exits with Escape",
+    "Search puts results first and restores the focus dashboard when cleared",
+    "Shared page JSON excludes personal focus notes and appearance",
+    "Native settings links download complete JSON, HTML, and CSV exports",
+    "List layout, card opacity, and system theme persist and react live",
+    "Light theme, mobile dashboard, focus mode, and toolbar stay within viewport",
+    "Focus panel can be hidden and remains available in focus mode",
+    "Popup honors appearance and has no uncaught errors"
+  ],
+  "failures": [],
+  "errors": []
+}
